@@ -4,63 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
   </head>
-  <body class="container">
-    <aside>
-      <div class="logo"></div>
-      <nav></nav>
-      <nav></nav>
-    </aside>
-    <main>
-      <section class="header">
-        <div class="top">
-          <div class="search">
-            <!-- search icon -->
-            <!-- search box -->
-          </div>
-          <div class="top-profile">
-            <!-- notification icon -->
-            <!-- profile image -->
-            <!-- profile name -->
-          </div>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="logo">
+          <h1><span class="mdi mdi-view-grid"></span>Dashboard</h1>
         </div>
-        <div class="bottom">
-          <div class="bottom-profile">
-            <!-- profile image -->
-            <!-- greeting -->
-            <!-- name (username) -->
-          </div>
-          <ul class="actions">
-            <!-- new button -->
-            <!-- upload button -->
-            <!-- share button -->
+        <nav>
+          <ul>
+            <li><span class="mdi mdi-home"></span>Home</li>
+            <li>
+              <span class="mdi mdi-card-account-details-outline"></span>Profile
+            </li>
+            <li><span class="mdi mdi-message-reply"></span>Messages</li>
+            <li><span class="mdi mdi-clock-time-three"></span>History</li>
+            <li><span class="mdi mdi-note-multiple"></span>Tasks</li>
+            <li><span class="mdi mdi-account-group"></span>Communities</li>
           </ul>
-        </div>
-      </section>
-      <section class="project-section">
-        <!-- section title -->
-        <div class="projects">
-          <div class="card">
-            <!-- title -->
-            <!-- paragraph -->
-            <!-- actions -->
+        </nav>
+        <nav>
+          <ul>
+            <li><span class="mdi mdi-cog"></span>Settings</li>
+            <li><span class="mdi mdi-help-box"></span>Support</li>
+            <li><span class="mdi mdi-shield-check"></span>Privacy</li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <section class="header">
+          <div class="top">
+            <div class="search">
+              <!-- search icon -->
+              <!-- search box -->
+            </div>
+            <div class="top-profile">
+              <!-- notification icon -->
+              <!-- profile image -->
+              <!-- profile name -->
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="announcement-section">
-        <!-- section title -->
-        <div class="announcements"></div>
-      </section>
-      <section class="trending-section">
-        <!-- section title -->
-        <div class="trends">
-          <div class="trend">
-            <!-- image -->
-            <!-- username -->
-            <!-- title -->
+          <div class="bottom">
+            <div class="bottom-profile">
+              <!-- profile image -->
+              <!-- greeting -->
+              <!-- name (username) -->
+            </div>
+            <ul class="actions">
+              <!-- new button -->
+              <!-- upload button -->
+              <!-- share button -->
+            </ul>
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
+        <section class="project-section">
+          <!-- section title -->
+          <div class="projects">
+            <div class="card">
+              <!-- title -->
+              <!-- paragraph -->
+              <!-- actions -->
+            </div>
+          </div>
+        </section>
+        <section class="announcement-section">
+          <!-- section title -->
+          <div class="announcements"></div>
+        </section>
+        <section class="trending-section">
+          <!-- section title -->
+          <div class="trends">
+            <div class="trend">
+              <!-- image -->
+              <!-- username -->
+              <!-- title -->
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
