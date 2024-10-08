@@ -216,6 +216,10 @@ header {
   margin-right: 2rem;
 }
 
+.announcements {
+  margin-bottom: 2rem;
+}
+
 .announcements > div {
   margin: 0 1.5rem;
   padding: 1.5rem 0;
